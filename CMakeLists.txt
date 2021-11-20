@@ -1,8 +1,7 @@
-cmake_minimum_required(VERSION 3.20)
-project(types C CXX)
+cmake_minimum_required(VERSION 3.0)
+project(COMiC_types C)
 
 set(CMAKE_C_STANDARD 99)
-set(CMAKE_CXX_STANDARD 11)
 
 add_library(
         __COMiC_types
@@ -17,8 +16,10 @@ endif ()
 
 add_executable(
         __COMiC_test_types
-        eq.cpp
-)
+        test/test.h
+        test/limited.c
+        test/fast.c
+        test/main.c)
 
 add_dependencies(__COMiC_types __COMiC_test_types)
 
