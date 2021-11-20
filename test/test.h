@@ -6,3 +6,4 @@ COMiC_int32 i32;
 COMiC_uint32 u32;
 COMiC_int64 i64;
 COMiC_uint64 u64;
+COMiC_bool bool;

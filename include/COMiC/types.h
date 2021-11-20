@@ -5,4 +5,6 @@
 
 #include <COMiC/_types.h>
 
+typedef size_t COMiC_size;
+
 #endif /* COMiC_TYPES_H */
