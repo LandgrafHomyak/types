@@ -5,7 +5,7 @@
 
 #include <COMiC/_types.h>
 
-typedef size_t COMiC_size;
+typedef size_t COMiC_usize;
 
 #define COMiC_TRUE (1)
 #define COMiC_FALSE (0)

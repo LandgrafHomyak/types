@@ -34,7 +34,7 @@ typedef to `int_least64_t` or `int_fast64_t`
 
 typedef to `uint_least64_t` or `uint_fast64_t`
 
-## `COMiC_size`
+## `COMiC_usize`
 
 typedef to `size_t`
 

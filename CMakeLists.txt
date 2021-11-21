@@ -23,4 +23,9 @@ add_executable(
 
 add_dependencies(__COMiC_types __COMiC_test_types)
 
+install(
+        TARGETS __COMiC_types
+        PUBLIC_HEADER DESTINATION ./include
+)
+
 add_library(COMiC::types ALIAS __COMiC_types)
