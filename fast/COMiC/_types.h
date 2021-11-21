@@ -12,5 +12,6 @@ typedef int_fast32_t COMiC_int32;
 typedef uint_fast64_t COMiC_uint64;
 typedef int_fast64_t COMiC_int64;
 typedef uint_fast8_t COMiC_bool;
+typedef int_fast8_t COMiC_success;
 
 #endif /* COMiC__TYPES_H */

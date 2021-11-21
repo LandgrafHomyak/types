@@ -14,5 +14,6 @@ typedef int_least32_t COMiC_int32;
 typedef uint_least64_t COMiC_uint64;
 typedef int_least64_t COMiC_int64;
 typedef uint_least8_t COMiC_bool;
+typedef int_least8_t COMiC_success;
 
 #endif /* COMiC__TYPES_H */
